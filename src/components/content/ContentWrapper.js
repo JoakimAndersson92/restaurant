@@ -4,7 +4,7 @@ import ContentCard from './ContentCard'
 function ContentWrapper() {
     return (
         <div className='content-wrapper'>
-            <ContentCard />
+            <ContentCard/>
             <ContentCard />
             <ContentCard />
             <ContentCard />

@@ -2,7 +2,8 @@
     display: grid;
     grid-template-rows: 1fr 8fr 1fr;
 
-    height: 100vh;
+
+    font-size: clamp(calc(0.5vh + 0.5vw),calc(1.5vh + 1.5vw),calc(2vh + 2vw) );
 }
 
 div {
@@ -21,7 +22,9 @@ span {
     justify-content: center;
     align-items: flex-end;
 
-    gap: 1vw;
+    gap: 3vw;
+
+    height: clamp(5vh, 15vh, 15vh);
 }
 
 .meny-link {
@@ -41,21 +44,37 @@ span {
 
 /*---------------------Content--------------------*/
 .content-container {
-    height: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+
 }
 
 .content-wrapper {
     display: grid;
 
-    grid-template-rows: 2fr 3fr 3fr 1fr ;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    align-items: center;
 
-    height: 100%;
+    row-gap: 5vh;
+
+    
+
 }
 
 .content-card {
-    margin: 1%;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+
+    border-radius: 10%;
+
+    height: 30vh
+
     
 }
 
@@ -70,5 +89,8 @@ span {
     grid-template-columns: repeat(3, 1fr);
 
     justify-items: center;
+    align-self: flex-end;
+
+    height: clamp(5vh, 15vh, 15vh);
 }
 /*-----------------------Footer-END-----------------*/
