@@ -1,8 +1,11 @@
 import React from 'react'
+import ContentWrapper from './ContentWrapper'
 
 function Content() {
   return (
-    <div>Content</div>
+    <div className='content-container'>
+        <ContentWrapper/>
+    </div>
   )
 }
 

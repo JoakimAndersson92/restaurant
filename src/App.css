@@ -40,10 +40,35 @@ span {
 
 
 /*---------------------Content--------------------*/
+.content-container {
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content-wrapper {
+    display: grid;
+
+    grid-template-rows: 2fr 3fr 3fr 1fr ;
+
+    height: 100%;
+}
+
+.content-card {
+    margin: 1%;
+    
+}
+
 /*---------------------Content-END-------------------*/
 
 
 
 
 /*-----------------------Footer------------------*/
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-items: center;
+}
 /*-----------------------Footer-END-----------------*/

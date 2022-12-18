@@ -1,8 +1,13 @@
 import React from 'react'
+import FooterContent from './FooterContent'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+        <FooterContent textContent={"Credit to url....................."}/>
+        <FooterContent textContent={"Credit to url....................."}/>
+        <FooterContent textContent={"Credit to url....................."}/>
+    </div>
   )
 }
 
