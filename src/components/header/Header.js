@@ -4,7 +4,9 @@ import Link from './Link'
 function Header() {
   return (
     <div className='header'>
-        <Link/>
+        <Link text="Home"/>
+        <Link text="Meny"/>
+        <Link text="Contact"/>
     </div>
   )
 }

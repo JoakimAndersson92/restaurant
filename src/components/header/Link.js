@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Link() {
+function Link({text}) {
   return (
-    <span>
-        some text
+    <span className='meny-link'>
+        {text}
     </span>
   )
 }

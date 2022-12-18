@@ -16,6 +16,25 @@ span {
 
 
 /*-------------------Header----------------------*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    gap: 1vw;
+}
+
+.meny-link {
+
+    display: flex;
+    height: 70%;
+    width: clamp(10%, 10vw , 10vw);
+
+    justify-content: center;
+    align-items: center;
+}
+
+
 /*-------------------Header-END---------------------*/
 
 
